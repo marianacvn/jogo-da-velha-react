@@ -1,17 +1,11 @@
+import Hastag from './components/Hastag';
 import Header from './components/Header';
-import Card from './objects/Card';
-import Player from './objects/Player';
 
 function App() {
   return (
     <>
       <Header/>
-      <Card>
-      <Player  player="o"/>
-      <Player  player="x"/>
-      <Player  player="x"/>
-      <Player  player="o"/>
-      </Card>
+      <Hastag />
       
     </>
     
