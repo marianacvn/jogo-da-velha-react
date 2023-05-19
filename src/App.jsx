@@ -1,12 +1,9 @@
-import './objects/Input/index';
-import './styles/elements/App.css';
+import Sobre from './objects/Sobre/index'
 
-
-const App = () => (
-  <main className='app'>
-    <a href='#' className='action'>Sobre</a>
-  </main>
-  
-);
+function App() {
+  return (
+    <Sobre />
+  );
+}
  
 export default App;
