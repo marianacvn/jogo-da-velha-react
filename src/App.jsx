@@ -1,12 +1,12 @@
+import './objects/Input/index';
+import './styles/elements/App.css';
 
-import './elements/App.css'
 
-function App() {
- 
-
-  return (
+const App = () => (
+  <main className='app'>
     <a href='#' className='action'>Sobre</a>
-  )
-}
-
-export default App
+  </main>
+  
+);
+ 
+export default App;
