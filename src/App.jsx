@@ -1,11 +1,11 @@
-import Hastag from './components/Hastag';
+import Hashtag from './components/Hashtag';
 import Header from './components/Header';
 
 function App() {
   return (
     <>
       <Header/>
-      <Hastag />
+      <Hashtag />
       
     </>
     
