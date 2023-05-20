@@ -1,7 +1,12 @@
+import Label from "../Label";
 
 
-const Input = ({ value }) => (
-    <input type="checkbox" value={value}/>
+const Input = ({ id, value, content}) => (
+    <>
+    <input id={id} type="checkbox" value={value} />
+    <Label htmlFor={id} content= {content}/>
+    </>
+    
 );
 
 export default Input;
