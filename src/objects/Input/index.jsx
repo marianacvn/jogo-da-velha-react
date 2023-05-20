@@ -1,7 +1,7 @@
 
 
-const Input = () => (
-    <input type="checkbox" value="show"/>
+const Input = ({ value }) => (
+    <input type="checkbox" value={value}/>
 );
 
 export default Input;
